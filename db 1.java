@@ -4,10 +4,9 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 package database;
-
 /**
  *
- * @author archana
+ * @author 21cse068
  */
 public class Database {
     /**
