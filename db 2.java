@@ -1,27 +1,20 @@
-
 /**
  *
  * @author 21cse068
  */
 public class frontpage extends javax.swing.JFrame {
-
     public frontpage() {
         initComponents();
     }
     @SuppressWarnings("unchecked")
     private void initComponents() {
-
         jButton1 = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jButton2 = new javax.swing.JButton();
         jButton3 = new javax.swing.JButton();
-
         jButton1.setText("jButton1");
-
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
         jLabel1.setText("Online Store Books");
-
         jButton2.setText("User");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -71,9 +64,6 @@ public class frontpage extends javax.swing.JFrame {
     }
     private void jButton3ActionPerformed(java.awt.event.ActionEvent evt) {   
     }
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String args[]) {
         try {
             for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
